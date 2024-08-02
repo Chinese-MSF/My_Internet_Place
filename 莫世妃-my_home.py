@@ -145,7 +145,7 @@ def page_3():
         if word == 'birthday':
             st.balloons()
     elif word not in words_dict:
-        st.write(':gold[很抱歉，找不到该单词]')
+        st.write(':green[很抱歉，找不到该单词]')
     # 显示高频查询单词
     words_show = st.toggle('高频查询单词')
     if words_show:
